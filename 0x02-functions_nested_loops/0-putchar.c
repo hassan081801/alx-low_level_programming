@@ -1,9 +1,12 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
- * main - Print a word
+ * main - Entry word
  *
- * Desctiption: Program that prints a single line.
- * REturn: Always 0.
+ * Desctiption: write a program that prints "_putchar" followed by a new line.
+ *
+ * Return:Always 0 (success)
  */
 
 int main(void)
