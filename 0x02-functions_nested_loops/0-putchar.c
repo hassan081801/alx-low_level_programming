@@ -1,13 +1,10 @@
 #include "main.h"
 
 /**
- * main - Entry word
+ * main - Prints "Holberton" followed by a new line.
  *
- * Desctiption: write a program that prints "_putchar" followed by a new line.
- *
- * Return:Always 0 (success)
+ * Return: Always 0.
  */
-
 int main(void)
 {
 	_putchar('_');
