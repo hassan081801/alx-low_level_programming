@@ -1,1 +1,1 @@
-readme file fo 0x09-static_libraries
+this is a readme for 0x09-static_libraries
