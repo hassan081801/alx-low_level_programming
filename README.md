@@ -1,1 +1,1 @@
-readme file for pointers and array
+readme for alx-low_level_programming
