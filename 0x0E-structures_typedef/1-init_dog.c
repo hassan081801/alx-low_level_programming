@@ -3,17 +3,23 @@
 
 /**
  * init_dog - initialize a variable of type struct dog
- * @d: array
- * @name: name
- * @age: age
- * @owner: owner
- * description: This struct is for dog
+ *@d: array
+ *@name: name
+ *@age: age
+ *@owner: owner
+ * Description: This struct is for dog
  */
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
-		d = malloc(sizeof(struct dog));
+		return;
+
+	else
+	{
 		d->name = name;
 		d->age = age;
 		d->owner = owner;
+	}
+
 }
